@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, make_response, jsonify
 import requests
-from src.bkrs import Bkrs
+from bkrs import Bkrs
 
 application = Flask(__name__)
 
